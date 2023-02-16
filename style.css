@@ -1,0 +1,59 @@
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:25px; /*делаем отступ сверху*/
+  }
+  a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#715017; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:10px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius:4px; /*добавляем скругление*/
+  }
+  li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:5px; /*Добавляем отступ у пунктов меню*/
+  }
+  img {
+    width: 150px;
+    height: 200px;
+   
+  }
+ 
+td{
+  text-align: center;
+  border:10px solid #715017;
+}
+.index,
+.cont,
+.catalog{
+  color: cornflowerblue;
+font-size: 16px;
+line-height: 20px;
+}
+
+.head_main,
+.head_catalog{
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.paragraph{
+  font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+color: #7D7987;
+}
+
+.main2{
+  color: coral;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 80px;
+}
